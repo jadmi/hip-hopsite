@@ -16,27 +16,40 @@ body {
   font-family: spotify-headers;
 }
 
-p {
-  font-family: spotify-tekst;
-}
-
-h3,
-h4 {
-  margin-left: 1em;
-  color: #1db954;
-}
-
 h1 {
   margin-left: 0.6em;
   color: #1db954;
+  font-size: 1.6rem;
 }
 
 h2 {
   margin-left: 0.9em;
   color: #37f67a;
+  font-size: 1.4rem;
+  padding-top: 1em;
+  padding-bottom: 0.8em;
 }
 
-p,
+h3 {
+  font-size: 1.2rem;
+  margin-left: 1em;
+  color: #1db954;
+}
+
+h4 {
+  margin-left: 1em;
+  color: #1db954;
+}
+
+p {
+  /* color: #d6e2da; */
+  font-family: spotify-tekst;
+  max-width: 50vw;
+  line-height: 1.6em;
+  color: #c7ccc8;
+  margin-left: 1.3em;
+}
+
 img {
   margin-left: 1.3em;
 }
@@ -50,42 +63,21 @@ nav ul {
   margin: 0;
 }
 
+nav ul :hover {
+  transform: scale(1.1);
+}
+
 nav a {
   color: #d6e2da;
   text-decoration: none;
   padding: 1em;
 }
 
-nav ul :hover {
-  transform: scale(1.1);
-}
-
 /* teksten */
-
-h1 {
-  font-size: 1.8rem;
-}
-
-h2 {
-  font-size: 1.4rem;
-  padding-top: 1em;
-  padding-bottom: 0.8em;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
 
 .artiest-2 {
   font-size: 1.4rem;
   padding-top: 0.1em;
-}
-
-p {
-  /* color: #d6e2da; */
-  max-width: 50vw;
-  line-height: 1.6em;
-  color: #c7ccc8;
 }
 
 .rij-titel {
@@ -104,11 +96,6 @@ ul {
 
 ul li {
   list-style-type: none;
-}
-
-.embeds-rij {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 /* afbeeldingen */
@@ -163,4 +150,9 @@ ul li {
   border: none;
   width: 45vw;
   height: 35vh;
+}
+
+.embeds-rij {
+  display: flex;
+  justify-content: space-evenly;
 }
