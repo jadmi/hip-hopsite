@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   margin-left: 0.9em;
-  color: #37f67a;
+  color: #1db954;
   font-size: 1.4rem;
   padding-top: 1em;
   padding-bottom: 0.8em;
@@ -43,6 +43,10 @@ p {
   line-height: 1.6em;
   color: #c7ccc8;
   margin-left: 1.3em;
+}
+
+li {
+  font-size: 1.1em;
 }
 
 /* afbeeldingen */
@@ -168,7 +172,4 @@ ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-article {
 }
