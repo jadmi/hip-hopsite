@@ -73,8 +73,12 @@ nav ul {
   margin: 0;
 }
 
-nav ul :hover {
-  transform: scale(1.1);
+nav li {
+  transition: transform 0.25s ease-out;
+}
+
+nav li:hover {
+  transform: scale(1.05);
 }
 
 nav a {
@@ -153,7 +157,8 @@ ul li {
 }
 
 .nummer-embed-2 {
-  padding: 2em;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
   border: none;
   width: 45vw;
   height: 35vh;
@@ -161,5 +166,9 @@ ul li {
 
 .embeds-rij {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+article {
 }
