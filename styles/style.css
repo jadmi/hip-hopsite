@@ -58,9 +58,27 @@ li {
 }
 
 .artiest-img {
-  max-width: 15vw;
-  max-height: 40vh;
+  max-width: 50vw;
+  max-height: 50vw;
   margin-left: 1.3em;
+  padding-right: 2.1em;
+}
+
+.mfdoom {
+  background-color: #202f25;
+  padding: 1em;
+  max-width: max-content;
+}
+
+.mfdoom-tekst {
+  font-size: 1.1em;
+  max-width: 100vw;
+}
+
+.uitlijning {
+  display: flex;
+  align-items: center;
+  padding: 1em;
 }
 
 .populairste-nummers {
@@ -77,17 +95,22 @@ nav ul {
 }
 
 nav li {
-  transition: transform 0.5s ease-out;
+  transition: transform 0.7s ease-out;
 }
 
 nav li:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 nav a {
   color: #d6e2da;
   text-decoration: none;
-  padding: 1em;
+  margin: 1em;
+}
+
+nav a:hover {
+  border-bottom: 0.15em solid white;
+  transition: all 0.1s ease-in-out;
 }
 
 /* teksten */
@@ -128,6 +151,7 @@ ul li {
 .link-playlist {
   color: #1db954;
   text-decoration: none;
+  border-bottom: 0.15em solid white;
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 2em;
