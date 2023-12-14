@@ -1,0 +1,13 @@
+PAGINA: index.html
+afbeelding: spotify.com
+
+PAGINA: artiesten.html -
+afbeeldingen, embeddings: spotify.com
+informatie + afbeeldingen: https://en.wikipedia.org/wiki/MF_Doom + https://en.wikipedia.org/wiki/Joey_Badass
+
+PAGINA: 
+
+
+
+
+font van: https://www.dfonts.org

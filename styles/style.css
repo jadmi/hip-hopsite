@@ -37,7 +37,6 @@ h3 {
 }
 
 p {
-  /* color: #d6e2da; */
   font-family: spotify-tekst;
   max-width: 50vw;
   line-height: 1.6em;
@@ -78,11 +77,11 @@ nav ul {
 }
 
 nav li {
-  transition: transform 0.25s ease-out;
+  transition: transform 0.5s ease-out;
 }
 
 nav li:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 nav a {
