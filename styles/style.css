@@ -104,7 +104,6 @@ nav a {
 
 nav a:hover {
   border-bottom: 0.15em solid white;
-  transition: all 0.1s ease-in-out;
 }
 
 /* teksten */
@@ -154,7 +153,6 @@ ul li {
 
 .link-playlist:hover {
   color: white;
-  cursor: pointer;
 }
 
 /* embeds */
@@ -197,7 +195,6 @@ ul li {
 
 .footerlijst {
   margin-top: 4em;
-  font-size: 1.1em;
   line-height: 1.6em;
   color: #c7ccc8;
   display: flex;
