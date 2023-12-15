@@ -1,13 +1,17 @@
 PAGINA: index.html
 afbeelding: spotify.com
 
-PAGINA: artiesten.html -
-afbeeldingen, embeddings: spotify.com
+PAGINA: artiesten.html 
+embeddings: spotify.com
 informatie + afbeeldingen: https://en.wikipedia.org/wiki/MF_Doom + https://en.wikipedia.org/wiki/Joey_Badass
 
-PAGINA: 
+PAGINA: albums.html
+embeddings: spotify.com
+informatie: https://nl.wikipedia.org/wiki/1999_(Joey_Bada$$), https://en.wikipedia.org/wiki/Graduation_(album)
+https://en.wikipedia.org/wiki/Die_Lit, https://en.wikipedia.org/wiki/Astroworld_(album), https://en.wikipedia.org/wiki/Luv_Is_Rage_2, https://en.wikipedia.org/wiki/Mr._Morale_%26_the_Big_Steppers
 
+PAGINA: nummers.html
+embeddings: spotify.com
 
-
-
-font van: https://www.dfonts.org
+FONT: 
+https://www.dfonts.org/fonts/circular-font-family/
