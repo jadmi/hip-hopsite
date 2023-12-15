@@ -58,17 +58,17 @@ li {
   padding-right: 2.1em;
 }
 
-.mfdoom {
+.artiest-bg {
   background-color: #202f25;
   padding: 1em;
 }
 
-.mfdoom-tekst {
+.artiest-tekst {
   font-size: 1.1em;
   max-width: 100vw;
 }
 
-.uitlijning {
+.uitlijning-div {
   display: flex;
   align-items: center;
   padding: 1em;
