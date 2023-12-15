@@ -1,19 +1,14 @@
 /* tekst en fonts */
 
 @font-face {
-  font-family: spotify-headers;
-  src: url(../font/Circular/CircularStd-Bold.otf);
-}
-
-@font-face {
-  font-family: spotify-tekst;
+  font-family: spotify-font;
   src: url(../font/Circular/CircularStd-Bold.otf);
 }
 
 body {
   background-color: #212121;
   margin: 0;
-  font-family: spotify-headers;
+  font-family: spotify-font, sans-serif;
 }
 
 h1 {
@@ -37,7 +32,6 @@ h3 {
 }
 
 p {
-  font-family: spotify-tekst;
   max-width: 50vw;
   line-height: 1.6em;
   color: #c7ccc8;
@@ -67,7 +61,6 @@ li {
 .mfdoom {
   background-color: #202f25;
   padding: 1em;
-  max-width: max-content;
 }
 
 .mfdoom-tekst {
@@ -150,12 +143,17 @@ ul li {
 
 .link-playlist {
   color: #1db954;
-  text-decoration: none;
-  border-bottom: 0.15em solid white;
+  text-decoration: underline;
+  text-decoration-color: #0e692e;
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 2em;
   padding-left: 1em;
+}
+
+.link-playlist:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /* embeds */
@@ -184,8 +182,7 @@ ul li {
 }
 
 .nummer-embed-2 {
-  padding-top: 2em;
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
   border: none;
   width: 45vw;
   height: 35vh;
@@ -194,5 +191,14 @@ ul li {
 .embeds-rij {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footerlijst {
+  margin-top: 4em;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #c7ccc8;
+  display: flex;
   justify-content: space-evenly;
 }
